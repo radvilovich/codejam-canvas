@@ -1,0 +1,123 @@
+.title {
+    height: 48px;
+    font-family: Roboto;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.87);
+    box-shadow: 0 2px 2px 0px rgba(0,0,0,0.5);
+    line-height: 48px;
+    padding-left: 20px;
+}
+
+.title span {
+    margin-left: 30px;
+}
+.panels {
+    position: absolute;
+    left: 0;
+}
+
+.instruments {
+    display: flex;
+    flex-direction: column;
+    width: 228px;
+    height: 246px;
+    border: 1px solid grey;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-top: 80px;
+    font-family: Roboto;
+}
+
+.instruments div {
+    height: 52px;
+    line-height: 52px;
+    padding-left: 20px;
+} 
+
+.instruments div span {
+    margin-left: 20px;
+}
+
+.colors {
+    display: flex;
+    flex-direction: column;
+    width: 228px;
+    height: 246px;
+    border: 1px solid grey;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-top: 92px;
+    font-family: Roboto;
+}
+
+.colors>div {
+    position: relative;
+    height: 52px;
+    line-height: 52px;
+    padding-left: 20px;
+} 
+
+.colors>div>span {
+    margin-left: 40px;
+}
+
+.colors>div>.circle {
+    position: absolute;
+    top: 15px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.grey {
+    background: #C4C4C4;
+}
+
+.green {
+    background: #41F795;
+}
+
+.red {
+    background: #F74141;
+}
+
+.blue {
+    background: #41B6F7;
+}
+
+.underline {
+    border-bottom: 1px solid grey;
+}
+
+canvas {
+    border: 1px dashed black;
+    width: 512px;
+    height: 512px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.switcher {
+    position: absolute;
+    right: 20px;
+    top: 127px;
+    display: flex;
+    flex-direction: column;
+    width: 228px;
+    height: 246px;
+    border: 1px solid grey;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    font-family: Roboto;
+}
+
+.switcher div {
+    height: 52px;
+    line-height: 52px;
+    padding-left: 20px;
+    border-bottom: 1px solid grey;
+    cursor: pointer;
+} 
+
+.switcher div:hover {
+    background: grey;
+}
