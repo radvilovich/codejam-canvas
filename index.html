@@ -1,3 +1,4 @@
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -5,20 +6,59 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="node_modules/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet">
 </head>
 <body>
+    <div class="title">
+        <i class="fas fa-bars"></i>
+        <span>CodeJam - Pallete</span>
+    </div>
+    <div class="panels">
+        <div class="instruments">
+            <div>
+                <i class="fas fa-fill-drip"></i>
+                <span>Paint bucket</span>
+            </div>
+            <div class="underline">
+                <i class="fas fa-eye-dropper"></i>
+                <span>Choose color</span>
+            </div>
+            <div>
+                <i class="fas fa-arrows-alt"></i>
+                <span>Move</span>
+            </div>
+            <div>
+                <i class="fas fa-exchange-alt"></i>
+                <span>Transform</span>
+            </div>
+        </div>
+        <div class="colors">
+            <div>
+                <div class="circle grey"></div>
+                <span>Current color</span>
+            </div>
+            <div class="underline">
+                <div class="circle green"></div>
+                <span>Prev color</span>
+            </div>
+            <div>
+                <div class="circle red"></div>
+                <span>red</span>
+            </div>
+            <div>
+                <div class="circle blue"></div>
+                <span>blue</span>
+            </div>
+        </div>
+    </div>
     <div>
         <canvas id="drawingCanvas" width="512" height="512"></canvas>
     </div>
-    <div>
-        <ul>
-            <li id="picture1" onclick="picture(ctx, width, height, 4, url1)">Picture1</li>
-            <li id="picture2" onclick="picture(ctx, width, height, 32, url2)">Picture2</li>
-            <li id="picture3" onclick="picture3(ctx, width, height)">Picture3</li>
-        </ul>
-    </div>
-    
-    
+    <div class="switcher">
+        <div id="picture1" onclick="picture(ctx, width, height, 4, url1)">Picture1</div>
+        <div id="picture2" onclick="picture(ctx, width, height, 32, url2)">Picture2</div>
+        <div id="picture3" onclick="picture3(ctx, width, height)">Picture3</div>
+    </div>  
 </body>
 <script src="script.js"></script>
 </html>
