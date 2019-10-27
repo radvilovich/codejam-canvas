@@ -24,6 +24,7 @@
     border: 1px solid grey;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     margin-top: 80px;
+    font-family: Roboto;
 }
 
 .instruments div {
@@ -44,6 +45,7 @@
     border: 1px solid grey;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     margin-top: 92px;
+    font-family: Roboto;
 }
 
 .colors>div {
@@ -105,6 +107,7 @@ canvas {
     height: 246px;
     border: 1px solid grey;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    font-family: Roboto;
 }
 
 .switcher div {
